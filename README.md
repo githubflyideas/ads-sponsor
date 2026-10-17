@@ -1,6 +1,6 @@
 # ads-sponsor
 
-Remote content for the sponsor slot in **pingping**, **fogping** and **json-ping**.
+Remote content for the sponsor slot in **pingping**, **fogping**, **json-ping** and **traffic66**.
 Change the ads by editing files here — no new software release needed.
 
 ## Layout
@@ -9,6 +9,7 @@ Change the ads by editing files here — no new software release needed.
 pingping/   sponsors.json + ethicalads.png, carbonads.png, buysellads.png, baidu-cloud.png
 fogping/    sponsors.json + slides
 json-ping/  sponsors.json + slides
+traffic66/  sponsors.json + slides (shown in the left sidebar of unregistered installations)
 ```
 
 Each app's browser page fetches
@@ -22,7 +23,7 @@ directly (the server never contacts GitHub).
   "version": 1,
   "updated": "2026-10-17",
   "slides": [
-    { "image": "ethicalads.png", "link": "https://example.com", "alt": "Example Co.", "title": "optional caption" }
+    { "id": "optional-campaign-id", "image": "ethicalads.png", "link": "https://example.com", "alt": "Example Co.", "title": "optional caption" }
   ]
 }
 ```
@@ -31,6 +32,7 @@ directly (the server never contacts GitHub).
 - `image`: path relative to the manifest (e.g. `ethicalads.png`) or an absolute **https** URL.
 - `link`: click-through URL; only `http://` and `https://` are accepted (`mailto:` is rejected).
   Slides with an invalid or missing link are shown but not clickable.
+- `id`: optional; traffic66 uses it as `utm_campaign` (falls back to a slug of `alt`).
 - `alt`: required in practice (accessibility text). `title`: optional caption shown next to the dots.
 - `version` / `updated`: bump when you change the manifest; informational only.
 
