@@ -2,9 +2,29 @@
   "version": 2,
   "updated": "2026-10-17",
   "slides": [
-    { "image": "ethicalads.png", "link": "https://www.ethicalads.io/publishers/", "alt": "EthicalAds", "title": "EthicalAds" },
-    { "image": "carbonads.png", "link": "https://www.carbonads.net/", "alt": "Carbon Ads", "title": "Carbon Ads" },
-    { "image": "buysellads.png", "link": "https://www.buysellads.com/publishers", "alt": "BuySellAds", "title": "BuySellAds" },
-    { "image": "baidu-cloud.png", "link": "https://cloud.baidu.com/", "alt": "Baidu AI Cloud (百度智能云)", "title": "百度智能云" }
+    {
+      "image": "ethicalads.png",
+      "link": "https://www.ethicalads.io/publishers/?utm_source=fogping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/fogping",
+      "alt": "EthicalAds",
+      "title": "EthicalAds"
+    },
+    {
+      "image": "carbonads.png",
+      "link": "https://www.carbonads.net/?utm_source=fogping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/fogping",
+      "alt": "Carbon Ads",
+      "title": "Carbon Ads"
+    },
+    {
+      "image": "buysellads.png",
+      "link": "https://www.buysellads.com/publishers?utm_source=fogping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/fogping",
+      "alt": "BuySellAds",
+      "title": "BuySellAds"
+    },
+    {
+      "image": "baidu-cloud.png",
+      "link": "https://cloud.baidu.com/?utm_source=fogping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/fogping",
+      "alt": "Baidu AI Cloud (百度智能云)",
+      "title": "百度智能云"
+    }
   ]
 }
