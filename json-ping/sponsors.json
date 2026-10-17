@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-17",
   "slides": [
-    { "image": "slide-1.png", "link": "https://github.com/githubflyideas/ads-sponsor", "alt": "Your ad here — contact route66traffic66@gmail.com", "title": "Your ad here" },
-    { "image": "slide-2.png", "link": "https://github.com/githubflyideas/json-ping", "alt": "Reach network engineers — sponsor json-ping", "title": "Reach network engineers" },
-    { "image": "slide-3.png", "link": "https://github.com/githubflyideas/ads-sponsor", "alt": "Sponsor this slot — route66traffic66@gmail.com", "title": "Sponsor this slot" }
+    { "image": "ethicalads.png", "link": "https://www.ethicalads.io/publishers/", "alt": "EthicalAds", "title": "EthicalAds" },
+    { "image": "carbonads.png", "link": "https://www.carbonads.net/", "alt": "Carbon Ads", "title": "Carbon Ads" },
+    { "image": "buysellads.png", "link": "https://www.buysellads.com/publishers", "alt": "BuySellAds", "title": "BuySellAds" },
+    { "image": "baidu-cloud.png", "link": "https://cloud.baidu.com/", "alt": "Baidu AI Cloud (百度智能云)", "title": "百度智能云" }
   ]
 }

@@ -6,7 +6,7 @@ Change the ads by editing files here — no new software release needed.
 ## Layout
 
 ```
-pingping/   sponsors.json + slide-1.png … slide-3.png
+pingping/   sponsors.json + ethicalads.png, carbonads.png, buysellads.png, baidu-cloud.png
 fogping/    sponsors.json + slides
 json-ping/  sponsors.json + slides
 ```
@@ -22,13 +22,13 @@ directly (the server never contacts GitHub).
   "version": 1,
   "updated": "2026-10-17",
   "slides": [
-    { "image": "slide-1.png", "link": "https://example.com", "alt": "Example Co.", "title": "optional caption" }
+    { "image": "ethicalads.png", "link": "https://example.com", "alt": "Example Co.", "title": "optional caption" }
   ]
 }
 ```
 
-- `slides`: up to **3** entries; extra entries are ignored.
-- `image`: path relative to the manifest (e.g. `slide-1.png`) or an absolute **https** URL.
+- `slides`: up to **4** entries; extra entries are ignored.
+- `image`: path relative to the manifest (e.g. `ethicalads.png`) or an absolute **https** URL.
 - `link`: click-through URL; only `http://` and `https://` are accepted (`mailto:` is rejected).
   Slides with an invalid or missing link are shown but not clickable.
 - `alt`: required in practice (accessibility text). `title`: optional caption shown next to the dots.
@@ -43,7 +43,7 @@ directly (the server never contacts GitHub).
 
 ## How to swap an ad
 
-1. Replace `<product>/slide-N.png` (same file name) or add a new image and point `image` at it.
+1. Replace an image in `<product>/` (same file name) or add a new image and point `image` at it.
 2. Edit `link`, `alt`, `title` in `<product>/sponsors.json`; bump `version`.
 3. Commit to `main`. That's it.
 
@@ -51,7 +51,7 @@ directly (the server never contacts GitHub).
 
 `raw.githubusercontent.com` is served through a CDN with roughly a **5-minute** cache, so changes
 appear within ~5 minutes. If you replace an image under the same name and want it to show immediately,
-use a new file name instead (e.g. `slide-1-v2.png`).
+use a new file name instead (e.g. `ethicalads-v2.png`).
 
 ## Behaviour in the apps
 
