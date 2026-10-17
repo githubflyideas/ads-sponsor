@@ -39,7 +39,7 @@ directly (the server never contacts GitHub).
 - **1456 × 180 px PNG** (displayed at 728 × 90 CSS px, i.e. the standard leaderboard size at 2× for sharp screens).
 - Aspect ratio must be **8.09 : 1 (728:90)**; other ratios are cropped to fit (`object-fit: cover`).
 - Keep files small (< 150 KB). PNG, JPEG, WebP or GIF all work.
-- In pingping at a 1850 px wide window the sponsor box is ~1790 px wide and the carousel occupies up to 728 px of it.
+- In pingping at a 1850 px wide window the sponsor box is ~1800 px wide and the carousel occupies up to 728 px of it.
 
 ## How to swap an ad
 
