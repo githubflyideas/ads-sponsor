@@ -4,27 +4,31 @@
   "slides": [
     {
       "image": "ethicalads.png",
-      "link": "https://www.ethicalads.io/publishers/?utm_source=pingping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/pingping",
+      "link": "https://www.ethicalads.io/publishers/",
       "alt": "EthicalAds",
-      "title": "EthicalAds"
+      "title": "EthicalAds",
+      "id": "ethicalads"
     },
     {
       "image": "carbonads.png",
-      "link": "https://www.carbonads.net/?utm_source=pingping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/pingping",
+      "link": "https://www.carbonads.net/",
       "alt": "Carbon Ads",
-      "title": "Carbon Ads"
+      "title": "Carbon Ads",
+      "id": "carbon-ads"
     },
     {
       "image": "buysellads.png",
-      "link": "https://www.buysellads.com/publishers?utm_source=pingping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/pingping",
+      "link": "https://www.buysellads.com/publishers",
       "alt": "BuySellAds",
-      "title": "BuySellAds"
+      "title": "BuySellAds",
+      "id": "buysellads"
     },
     {
       "image": "baidu-cloud.png",
-      "link": "https://cloud.baidu.com/?utm_source=pingping&utm_medium=sponsor&utm_campaign=github.com/githubflyideas/pingping",
+      "link": "https://cloud.baidu.com/",
       "alt": "Baidu AI Cloud (百度智能云)",
-      "title": "百度智能云"
+      "title": "百度智能云",
+      "id": "baidu-ai-cloud"
     }
   ]
 }
