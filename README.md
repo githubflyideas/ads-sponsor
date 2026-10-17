@@ -38,10 +38,14 @@ directly (the server never contacts GitHub).
 
 ## Image size
 
-- **1456 × 180 px PNG** (displayed at 728 × 90 CSS px, i.e. the standard leaderboard size at 2× for sharp screens).
-- Aspect ratio must be **8.09 : 1 (728:90)**; other ratios are cropped to fit (`object-fit: cover`).
-- Keep files small (< 150 KB). PNG, JPEG, WebP or GIF all work.
-- In pingping at a 1850 px wide window the sponsor box is ~1800 px wide and the carousel occupies up to 728 px of it.
+- **468 × 120 px PNG** (displayed at **234 × 60** CSS px — the IAB "half banner" — at 2× for sharp screens).
+- Aspect ratio must be **3.9 : 1 (234:60)**; other ratios are cropped to fit (`object-fit: cover`).
+- Keep files small (< 100 KB). PNG, JPEG, WebP or GIF all work (no SVG). Keep text short and large:
+  at display size a 30 px (2×) headline is ~15 px on screen.
+- The slot sits in the page header, centred between the title and the controls. If the window is too
+  narrow for it to fit beside them, it moves to its own row under the header.
+- Releases before pingping v0.6.2 / fogping v1.2.2 / json-ping v3.2.2 show the slot at the bottom at
+  728 × 90 and will crop these images.
 
 ## How to swap an ad
 
