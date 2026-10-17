@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "updated": "2026-10-17",
+  "slides": [
+    { "image": "slide-1.png", "link": "https://github.com/githubflyideas/ads-sponsor", "alt": "Your ad here — contact route66traffic66@gmail.com", "title": "Your ad here" },
+    { "image": "slide-2.png", "link": "https://github.com/githubflyideas/fogping", "alt": "Reach network engineers — sponsor fogping", "title": "Reach network engineers" },
+    { "image": "slide-3.png", "link": "https://github.com/githubflyideas/ads-sponsor", "alt": "Sponsor this slot — route66traffic66@gmail.com", "title": "Sponsor this slot" }
+  ]
+}
