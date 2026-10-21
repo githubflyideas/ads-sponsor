@@ -38,9 +38,14 @@ directly (the server never contacts GitHub).
 
 ## Image size
 
-**traffic66** is different from the other three: **1456 × 180 px** (728 × 90 at 2×, ratio 8.09 : 1).
-The strip across the top of the page puts as many of them side by side as the window has room for
-and rotates the rest. Other ratios are cropped to fit.
+**traffic66** is different from the other three. Its strip across the top of the page shows one
+advertiser at a time and rotates between them:
+
+- a **small banner**, **1456 × 180 px** (728 × 90 at 2×), is shown three times side by side;
+- a **long banner**, **2880 × 120 px** (24 : 1), fills the strip alone. Anything 12 : 1 or wider counts
+  as long.
+
+The strip keeps the height of a row of small banners, so a long banner of another ratio is cropped to fit.
 
 The others (pingping, fogping, json-ping):
 
