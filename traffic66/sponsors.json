@@ -1,27 +1,18 @@
 {
-  "version": 2,
-  "updated": "2026-10-17",
+  "version": 3,
+  "updated": "2026-10-21",
   "slides": [
     {
-      "image": "ethicalads.png",
-      "link": "https://www.ethicalads.io/publishers/",
-      "alt": "EthicalAds",
-      "title": "EthicalAds",
-      "id": "ethicalads"
+      "image": "kooko-card.png",
+      "alt": "Kooko — All-in-one AI workspace for presentations, images, videos, and more",
+      "title": "Kooko",
+      "id": "kooko-card"
     },
     {
-      "image": "carbonads.png",
-      "link": "https://www.carbonads.net/",
-      "alt": "Carbon Ads",
-      "title": "Carbon Ads",
-      "id": "carbon-ads"
-    },
-    {
-      "image": "buysellads.png",
-      "link": "https://www.buysellads.com/publishers",
-      "alt": "BuySellAds",
-      "title": "BuySellAds",
-      "id": "buysellads"
+      "image": "kooko-live.png",
+      "alt": "KOOKO is Live! Professional work for everyone.",
+      "title": "Kooko",
+      "id": "kooko-live"
     },
     {
       "image": "baidu-cloud.png",

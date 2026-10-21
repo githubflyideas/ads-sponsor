@@ -9,7 +9,7 @@ Change the ads by editing files here — no new software release needed.
 pingping/   sponsors.json + ethicalads.png, carbonads.png, buysellads.png, baidu-cloud.png
 fogping/    sponsors.json + slides
 json-ping/  sponsors.json + slides
-traffic66/  sponsors.json + slides (shown in the left sidebar of unregistered installations)
+traffic66/  sponsors.json + slides (a strip across the top of the page in unregistered installations)
 ```
 
 Each app's browser page fetches
@@ -28,7 +28,7 @@ directly (the server never contacts GitHub).
 }
 ```
 
-- `slides`: up to **4** entries; extra entries are ignored.
+- `slides`: up to **4** entries (traffic66: up to **6**); extra entries are ignored.
 - `image`: path relative to the manifest (e.g. `ethicalads.png`) or an absolute **https** URL.
 - `link`: click-through URL; only `http://` and `https://` are accepted (`mailto:` is rejected).
   Slides with an invalid or missing link are shown but not clickable.
@@ -37,6 +37,13 @@ directly (the server never contacts GitHub).
 - `version` / `updated`: bump when you change the manifest; informational only.
 
 ## Image size
+
+**traffic66** is different from the other three: **1456 × 180 px** (728 × 90 at 2×, ratio 8.09 : 1).
+The strip across the top of the page puts as many of them side by side as the window has room for
+and rotates the rest. Other ratios are cropped to fit.
+
+The others (pingping, fogping, json-ping):
+
 
 - **468 × 120 px PNG** (displayed at **234 × 60** CSS px — the IAB "half banner" — at 2× for sharp screens).
 - Aspect ratio must be **3.9 : 1 (234:60)**; other ratios are cropped to fit (`object-fit: cover`).
