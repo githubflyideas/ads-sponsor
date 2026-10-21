@@ -1,15 +1,17 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-10-21",
   "slides": [
     {
       "image": "kooko-card.png",
+      "link": "https://kooko.ai/",
       "alt": "Kooko — All-in-one AI workspace for presentations, images, videos, and more",
       "title": "Kooko",
       "id": "kooko-card"
     },
     {
       "image": "kooko-live.png",
+      "link": "https://kooko.ai/",
       "alt": "KOOKO is Live! Professional work for everyone.",
       "title": "Kooko",
       "id": "kooko-live"
