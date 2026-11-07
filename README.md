@@ -7,8 +7,6 @@ Change the ads by editing files here — no new software release needed.
 
 ```
 pingping/   sponsors.json + ethicalads.png, carbonads.png, buysellads.png, baidu-cloud.png
-fogping/    sponsors.json + slides
-json-ping/  sponsors.json + slides
 traffic66/  sponsors.json + slides (a strip across the top of the page in unregistered installations)
 ```
 
